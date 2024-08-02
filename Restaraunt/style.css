@@ -1,0 +1,91 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #fcf7f7;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  color: white;
+  height: 400px;
+  width: 100%;
+  background-image: url("banner3.jpg");
+  background-size: cover;
+}
+.header ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 20px;
+}
+.header p {
+  font-size: 20px;
+}
+.header a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header-mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  border-bottom: 1px solid rgb(214, 213, 213);
+}
+.header a:hover,
+.header li:hover {
+  cursor: pointer;
+  color: rgb(248, 248, 189);
+  font-size: 21px;
+}
+.fried,
+.noodles {
+  display: flex;
+  flex-direction: column;
+}
+.cost {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+.menu img {
+  height: 180px;
+  width: 180px;
+  border-radius: 20px;
+}
+.footer ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.footer2 {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: top;
+  justify-content: space-around;
+  padding: 20px;
+}
+.footer li:hover {
+  cursor: pointer;
+}
+span {
+  font-size: 20px;
+}

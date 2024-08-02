@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+.header img {
+  height: 33px;
+  width: 105px;
+  margin-top: 12px;
+  margin-left: 50px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icons {
+  display: flex;
+}
+.icons span {
+  margin-top: 6px;
+  font-size: 22px;
+  padding: 5px;
+}
+p {
+  margin-top: 6px;
+  color: rgb(62, 61, 61);
+}
+.title h1 {
+  font-size: 42px;
+  font-weight: 500;
+  margin-top: 6px;
+  color: rgb(35, 34, 34);
+}
+.content {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  border-top: 1px solid rgb(241, 239, 239);
+}
+.job-navigation {
+  margin-top: 50px;
+  margin-left: 38px;
+  display: flex;
+  width: 73%;
+  color: rgb(221, 104, 104);
+  align-items: center;
+}
+.job-navigation p {
+  padding: 5px;
+}
+.job-navigation span {
+  margin-top: 5px;
+  font-weight: 700;
+}
+.application {
+  display: flex;
+  flex-direction: column;
+}
+.upload {
+  display: flex;
+  gap: 70px;
+}
+#autofill {
+  margin-top: 10px;
+}
+#upload {
+  margin-top: 3px;
+  font-size: 14px;
+  color: rgb(35, 34, 34);
+}
+.upload {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgb(241, 239, 239);
+}
+.resume {
+  margin-top: 30px;
+  height: 90px;
+  width: 500px;
+  background: #9898983b;
+  border: 3px dashed;
+  border-radius: 10px;
+  border-color: #6969693b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.easyApply {
+  width: 50%;
+  font-size: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  gap: 10px;
+}
+#easyApply {
+  height: 45px;
+  width: 220px;
+  background-color: rgb(250, 100, 100);
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  color: white;
+  gap: 10px;
+}
+#z {
+  margin-left: 5px;
+  background: white;
+  height: 38px;
+  width: 40px;
+  color: rgb(250, 100, 100);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#id {
+  margin-left: 25px;
+}
+.easyApply p {
+  font-size: 14px;
+}
+
+.form {
+  width: 100%;
+  color: #353535e0;
+  border-bottom: 1px solid rgb(241, 239, 239);
+}
+.form h3 {
+  color: rgb(221, 104, 104);
+  font-weight: 200;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+input,
+select {
+  text-align: left;
+  padding-left: 12px;
+  margin: 3px 0px 25px 0px;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border-color: #6969693b;
+}
+.firstName {
+  display: flex;
+}
+
+.form span {
+  color: red;
+}
+.UploadResume {
+  display: flex;
+  flex-direction: column;
+}
+.UploadResume h3 {
+  margin-top: 30px;
+  margin-bottom: 18px;
+  font-weight: 200;
+  color: rgb(221, 104, 104);
+}
+.UploadResume label {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+button {
+  width: 40%;
+  height: 40px;
+  font-size: 18px;
+  font-weight: lighter;
+  border-radius: 5px;
+  border: dashed 4px;
+  color: #353535e0;
+  border-color: #6969693b;
+}
+select option {
+  font-size: 20px;
+}
+label {
+  font-size: 20px;
+  color: #353535e0;
+}
+.Buttons {
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+}
+.Buttons button {
+  border: 3px solid;
+  border-color: #6969693b;
+  font-size: 18px;
+}
+.Footer {
+  border-top: 1px solid rgb(241, 239, 239);
+  padding: 10px;
+  width: 100vw;
+  margin-top: 40px;
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(221, 104, 104);
+}
+.FooterLogo {
+  width: 100vw;
+  height: 80px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 16px;
+  background-color: rgb(221, 220, 220);
+  margin-bottom: 0;
+}
+.FooterLogo img {
+  height: 50px;
+  width: 140px;
+}
